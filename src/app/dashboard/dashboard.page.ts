@@ -4,9 +4,9 @@ import {AssetService} from '../../services/asset.service';
 
 @Component({
   selector: 'qs-dashboard',
-  templateUrl: './dashboard.component.html',
+  templateUrl: './dashboard.page.html',
 })
-export class DashboardComponent implements OnInit, OnDestroy {
+export class DashboardPage implements OnInit, OnDestroy {
 
   // numeric/integer
   recordCount: number;
